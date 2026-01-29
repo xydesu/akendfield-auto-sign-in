@@ -1,0 +1,10 @@
+{
+    "baseUrl": "https://zonai.skport.com",
+    "cred": "",
+    "gameId": "3",
+    "headers": {
+        "sk-game-role": "",
+        "platform": "3",
+        "vName": "1.0.0"
+    }
+}

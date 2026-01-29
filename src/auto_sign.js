@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Load config
-const configPath = path.join(__dirname, 'config.json');
+const configPath = path.join(__dirname, '../config.json');
 if (!fs.existsSync(configPath)) {
     console.error('Error: config.json not found. Please copy config.example.json to config.json and fill in your credentials.');
     process.exit(1);
