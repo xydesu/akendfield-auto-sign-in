@@ -70,7 +70,7 @@
 
     function printConfig(cred, role) {
         const config = {
-            baseUrl: window.location.origin,
+            baseUrl: "https://zonai.skport.com",
             cred: cred,
             gameId: "3",
             headers: {
@@ -115,7 +115,7 @@
             if (!cred) return;
 
             const config = {
-                baseUrl: urlObj.origin,
+                baseUrl: "https://zonai.skport.com",
                 cred: cred,
                 gameId: "3",
                 headers: {
